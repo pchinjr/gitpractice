@@ -11,13 +11,23 @@ clone repo
 create file
 
 add file to staging
+
 commit file to staging
+
 push file to repo
+
 Branches
+
 make branch
+
 make changes
+
 add changes
+
 commit changes
+
 push changes
+
 merge
+
 pull request

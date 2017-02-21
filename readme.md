@@ -28,3 +28,4 @@ accept merge
 4. four
 5. five
 6. six
+7. seven

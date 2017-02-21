@@ -1,22 +1,25 @@
-Git Practice
+<h1>Git Practice</h1>
 
-Github 
-Create new Repo - Repo’s are 
-clone repo
+<h2>Github - Where ALL the code lives.</h2>        
+*Create a new repository on Github.* 
+Clone the repository.  `git clone https://github.com/pchinjr/gitpractice.git` - will copy that repo into a folder with the same repo name  
+navigate into project folder `cd gitpractice/`
+create file  `touch a.txt`
+add file to staging  `git add .` adds all the files you have created to a staging area  
+commit file to staging  `git commit -m "commit message"` commits that file to a staging area with a commit message  
+push file to repo  `git push origin master` pushes those commits to the remote repository on github
 
-`git clone https://github.com/pchinjr/gitpractice.git` - will copy that repo into a folder with the same repo name
+*Branches*  
+make a branch `git checkout -b develop`  
++make changes  
++add changes  
++commit changes  
++push changes  
 
-`cd gitpractice/`
+*Pull Request*    
+Pull requests are specific to github, from the feature branch it asks for a merge into another branch. In this case, we are accepting changes from `develop` into `master`. If the merge looks good, you can accept it.  
 
-create file  
-add file to staging  
-commit file to staging  
-push file to repo  
-Branches  
-make branch  
-make changes  
-add changes  
-commit changes  
-push changes  
-pull request  
-accept merge
+*Make a new feature branch*  
+create a branch  
+review branch and accept into `develop`
+once merged into develop, delete feature branch. 

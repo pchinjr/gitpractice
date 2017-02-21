@@ -18,8 +18,8 @@ make changes
 add changes  
 commit changes  
 push changes  
-merge  
 pull request  
+accept merge
 
 
 1. one 

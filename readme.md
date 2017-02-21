@@ -9,6 +9,7 @@ clone repo
 `cd gitpractice/`
 
 create file
+
 add file to staging
 commit file to staging
 push file to repo

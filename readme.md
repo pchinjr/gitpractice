@@ -23,3 +23,9 @@ Pull requests are specific to github, from the feature branch it asks for a merg
 create a branch  
 review branch and accept into `develop`
 once merged into develop, delete feature branch. 
+
+*Other git tools*  
+Rebase - squash commits and rewrite git history  
+Bisect - go through each commit to find bugs  
+
+Work on the latest `develop` and patch that one first, changes should flow up from fixes to features to develop to master. 

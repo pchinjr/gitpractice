@@ -9,32 +9,14 @@ clone repo
 `cd gitpractice/`
 
 create file  
-add file to staging
-
-commit file to staging
-
-push file to repo
-
-Branches
-
-make branch
-
-make changes
-
-add changes
-
-commit changes
-
-push changes
-
-merge
-
-pull request
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
+add file to staging  
+commit file to staging  
+push file to repo  
+Branches  
+make branch  
+make changes  
+add changes  
+commit changes  
+push changes  
+merge  
+pull request  

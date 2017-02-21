@@ -6,3 +6,5 @@ console.log("some fix");
 
 console.log("new feature");
 
+console.log("a second new feature")
+

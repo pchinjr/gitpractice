@@ -30,3 +30,11 @@ push changes
 merge
 
 pull request
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```

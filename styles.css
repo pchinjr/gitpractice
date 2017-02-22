@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.row::before,
+.row::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.one,
+.one-third,
+.two-thirds,
+.one-fourth,
+.half {
+  width: 100%;
+}
+/* 
+* Any styling that should be applied to screen widths larger
+* than a mobile device: tablet, laptop, desktop, etc. 
+*/
+
+@media only screen and (min-width: 800px) {
+  .one {
+    width: 100%;
+  }
+  .half {
+    width: calc(100% / 2);
+  }
+  .one-third {
+    width: calc(100% / 3);
+  }
+  .one-fourth {
+    width: calc(100% / 4);
+  }
+  .two-thirds {
+    width: calc(100% / 3 * 2);
+  }
+  .column {
+    float: left;
+  }
+}
+/* Styling */
+
+body {
+  background: lightslategrey;
+  color: black;
+  font-size: 1.3em;
+  font-family: 'Lato';
+  padding: 0 10px;
+}
+
+.column {
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hero {
+    background-image: url("http://www.placecage.com/c/300/200");
+    background-size: cover;
+    height: 400px;   
+}
+
+button {
+  color:red;
+  font-size: 20px;
+  padding: 30px;
+}

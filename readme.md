@@ -28,4 +28,5 @@ once merged into develop, delete feature branch.
 Rebase - squash commits and rewrite git history  
 Bisect - go through each commit to find bugs  
 
-Work on the latest `develop` and patch that one first, changes should flow up from fixes to features to develop to master. 
+Work on the latest `develop` and patch that one first, changes should flow up from fixes to features to develop to master.  
+Version control is not a solution to team communication. 

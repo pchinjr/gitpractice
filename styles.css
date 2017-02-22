@@ -14,7 +14,7 @@ html {
   content: " ";
   clear: both;
 }
-
+h1{ color:#f00; }
 .one,
 .one-third,
 .two-thirds,
@@ -76,4 +76,5 @@ button {
   color:red;
   font-size: 20px;
   padding: 30px;
+  font-weight:bold;
 }

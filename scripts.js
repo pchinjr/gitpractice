@@ -1,6 +1,6 @@
 function initElement() {
-    var b = document.getElementById("btn");
-    b.onclick = showAlert;
+    var a = document.getElementById("btn");
+    a.onclick = showAlert;
     console.log(b);
 };
 

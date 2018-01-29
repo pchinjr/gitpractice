@@ -5,5 +5,5 @@ function initElement() {
 };
 
 function showAlert(event) {
-    alert("HOW'D IT GET BURNED?!?!HOW'D IT GET BURNED?!?!HOW'D IT GET BURNED?!?!HOW'D IT GET BURNED?!?!");
+    alert("HOW'D IT GET BURNED?!?!HOW'D IT GET BURNED?!?!HOW'D IT GET BURNED?!?!HOW'D IT GET BURNED?!?!HOW'D IT GET BURNED?!?!");
 }
